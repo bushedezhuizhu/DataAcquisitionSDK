@@ -1,0 +1,6 @@
+framework module SensorsAnalyticsExtension {
+  umbrella header "SensorsAnalyticsExtension.h"
+
+  export *
+  module * { export * }
+}
