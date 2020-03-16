@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DataAcquistionSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.1"
   spec.summary      = "A short description of DataAcquistionSDK."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                   A short description of DataAcquistionSDK
+                   A short description of DataAcquistionSDK.We will data a few days.
                    DESC
 
   spec.homepage     = "https://github.com/bushedezhuizhu/DataAcquisitionSDK.git"
@@ -116,7 +116,7 @@ Pod::Spec.new do |spec|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
 
-    spec.frameworks = "CFNerwork", "CoreFoundation", "CoreGraphics", "CoreMotion", "CoreTelephony",               "Foundation", "QuartzCore", "Security", "SystemConfiguration", "UIKit",                     "WebKit"
+    spec.frameworks = "CFNetwork", "CoreFoundation", "CoreGraphics", "CoreMotion", "CoreTelephony",               "Foundation", "QuartzCore", "Security", "SystemConfiguration", "UIKit",                     "WebKit"
   
     spec.vendored_frameworks = 'class/*.framework'
   # ――― Project library ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
